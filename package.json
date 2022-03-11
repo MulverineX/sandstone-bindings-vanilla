@@ -1,0 +1,30 @@
+{
+  "name": "bindings-vanilla",
+  "version": "1.0.0",
+  "description": "A Sandstone pack library providing bindings for various vanilla library packs",
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "scripts": {
+    "watch": "sand watch",
+    "build": "sand build"
+  },
+  "keywords": [],
+  "author": "MulverineX",
+  "repository": {
+    "url": "https://github.com/MulverineX/sandstone-bindings-vanilla"
+  },
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "node-fetch": "^3.2.3",
+    "sandstone": "^0.14.0-alpha.10"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "sandstone-cli": "^0.5.4",
+    "typescript": "^4.6.2"
+  },
+  "engines": {
+    "node": ">=12.9.0"
+  }
+}
